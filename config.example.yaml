@@ -1,0 +1,13 @@
+---
+network:
+ name: "sepolia"
+consensus:
+  endpoint: "http://localhost:5052"
+relays:
+  - "https://0x845bd072b7cd566f02faeb0a4033ce9399e42839ced64e8b2adcfc859ed1e8e1a5a293336a49feac6d9a5edb779be53a@builder-relay-sepolia.flashbots.net"
+  - "http://0xafb8464ad29779262e7e975ceb7fae6e7e0986507f7368731c4d1c8067f4ffbbadc46882f13dadcb1185d88bf74dcdab@localhost:8088"
+api:
+  host: "localhost"
+  port: 8080
+store:
+  dsn: "postgresql://localhost:5432?sslmode=disable"
